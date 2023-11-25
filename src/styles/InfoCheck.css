@@ -1,0 +1,470 @@
+@font-face {
+  font-family: "VK Sans Text";
+  src: url("../fonts/VKSansDisplay-Regular.ttf")
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SF-Pro-Display-Semibold.otf")
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("../fonts/SFUIText-Regular.ttf")
+}
+
+
+
+.body {
+  background-color: #ffffff;
+  width: 98%;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 10px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  height: 1000px;
+}
+
+.infoContainer {
+  display: inline-block;
+}
+
+.riskAssessment {
+  font-family: "SF UI Text";
+  color: #50505A;
+  font-size: 22px;
+  text-align: left;
+}
+
+.background {
+  background-color: #F9F9F9;
+  width: 632px;
+  height: 72px;
+  border-radius: 16px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.circle {
+  width: 45px;
+  height: 45px;
+  background-color: #ff0c0c1f;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.progress {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 5px solid #ff0c0c;
+  background-color: transparent;
+}
+
+.assessment {
+  font-family: "SF Pro Display";
+  font-size: 26px;
+  margin-left: 15px;
+  margin-top: 20px;
+  color: #ff0c0c;
+}
+
+.numberOfAssessment {
+  font-family: "SF Pro Display";
+  color: #ff0c0c;
+  margin-left: auto;
+}
+
+.numberOfAssessment2 {
+  font-family: "SF Pro Display";
+  color: #A6AFBD;
+  margin-right: 10px;
+}
+
+.moreAboutAddress {
+  font-family: "SF UI Text";
+  color: #50505A;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.backgroundSmall {
+  background-color: #F9F9F9;
+  width: 632px;
+  height: 56px;
+  border-radius: 16px;
+  margin: 10px auto;
+  display: flex;
+}
+
+.balance {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.currentBalance {
+  font-family: "SF UI Text";
+  font-size: 16px;
+  margin-left: 10px;
+  color: #50505A;
+}
+
+.money {
+  font-family: "SF UI Text";
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: 10px;
+  color: #A6AFBD;
+}
+
+.transaction {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.firstTransaction {
+  font-family: "SF UI Text";
+  font-size: 16px;
+  margin-left: 10px;
+  color: #50505A;
+}
+
+.date {
+  font-family: "SF UI Text";
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: 10px;
+  color: #A6AFBD;
+}
+
+.lastTransaction {
+  font-family: "SF UI Text";
+  font-size: 16px;
+  margin-left: 10px;
+  color: #50505A;
+}
+
+.sourceOfFounds {
+  font-family: "SF UI Text";
+  color: #50505A;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.backgroundSmaller {
+  background-color: #F9F9F9;
+  width: 578px;
+  height: 44px;
+  border-radius: 16px;
+  margin: 10px auto;
+  display: flex;
+}
+
+
+.sourceContainer {
+  display: flex;
+}
+
+.copyCheck {
+  border: none;
+  width: 44px;
+  height: 44px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #50505A;
+  cursor: pointer;
+}
+
+.bitok {
+  width: 28px;
+  height: 28px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.efir {
+  width: 28px;
+  height: 28px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .background {
+    background-color: #F9F9F9;
+    width: 532px;
+    height: 72px;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .backgroundSmall {
+    background-color: #F9F9F9;
+    width: 532px;
+    height: 56px;
+    border-radius: 16px;
+    margin: 10px auto;
+    display: flex;
+  }
+
+  .backgroundSmaller {
+    background-color: #F9F9F9;
+    width: 478px;
+    height: 44px;
+    border-radius: 16px;
+    margin: 10px auto;
+    display: flex;
+  }
+
+  .copyCheck {
+    border: none;
+    width: 44px;
+    height: 44px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #50505A;
+    margin-left: 5px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .background {
+    background-color: #F9F9F9;
+    width: 432px;
+    height: 72px;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .backgroundSmall {
+    background-color: #F9F9F9;
+    width: 432px;
+    height: 56px;
+    border-radius: 16px;
+    margin: 10px auto;
+    display: flex;
+  }
+
+  .backgroundSmaller {
+    background-color: #F9F9F9;
+    width: 378px;
+    height: 44px;
+    border-radius: 16px;
+    margin: 10px auto;
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .copyCheck {
+    border: none;
+    width: 44px;
+    height: 44px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #50505A;
+    margin-left: 10px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .background {
+    background-color: #F9F9F9;
+    width: 380px;
+    height: 72px;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .backgroundSmall {
+    background-color: #F9F9F9;
+    width: 380px;
+    height: 56px;
+    border-radius: 16px;
+    margin: 10px auto;
+    display: flex;
+  }
+
+  .backgroundSmaller {
+    background-color: #F9F9F9;
+    width: 300px;
+    height: 44px;
+    border-radius: 16px;
+    margin: 10px auto;
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .copyCheck {
+    border: none;
+    width: 44px;
+    height: 44px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #50505A;
+    margin-left: -5px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .background {
+    background-color: #F9F9F9;
+    width: 300px;
+    height: 72px;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .backgroundSmall {
+    background-color: #F9F9F9;
+    width: 300px;
+    height: 56px;
+    border-radius: 16px;
+    margin: 10px auto;
+    display: flex;
+  }
+
+  .backgroundSmaller {
+    background-color: #F9F9F9;
+    width: 300px;
+    height: 44px;
+    border-radius: 16px;
+    margin: 10px auto;
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .copyCheck {
+    border: none;
+    width: 44px;
+    height: 44px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #50505A;
+    margin-left: 5px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+
+@media screen and (max-width: 410px) {
+  .background {
+    background-color: #F9F9F9;
+    width: 370px;
+    height: 72px;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .backgroundSmall {
+    background-color: #F9F9F9;
+    width: 370px;
+    height: 56px;
+    border-radius: 16px;
+    margin: 10px auto;
+    display: flex;
+  }
+
+  .backgroundSmaller {
+    background-color: #F9F9F9;
+    width: 320px;
+    height: 44px;
+    border-radius: 16px;
+    margin: 10px auto;
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .copyCheck {
+    border: none;
+    width: 44px;
+    height: 44px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #50505A;
+    margin-left: 5px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .background {
+    background-color: #F9F9F9;
+    width: 330px;
+    height: 72px;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .backgroundSmall {
+    background-color: #F9F9F9;
+    width: 330px;
+    height: 56px;
+    border-radius: 16px;
+    margin: 10px auto;
+    display: flex;
+  }
+
+  .backgroundSmaller {
+    background-color: #F9F9F9;
+    width: 290px;
+    height: 44px;
+    border-radius: 16px;
+    margin: 10px auto;
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .copyCheck {
+    border: none;
+    width: 44px;
+    height: 44px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #50505A;
+    margin-right: 15px;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+  }
+}
+
+
+
+

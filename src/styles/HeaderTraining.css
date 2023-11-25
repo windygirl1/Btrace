@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "VK Sans Text";
+  src: url("../fonts/VKSansDisplay-Regular.ttf")
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SF-Pro-Display-Semibold.otf")
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("../fonts/SFUIText-Regular.ttf")
+}
+
+.headerContainer {
+  background: linear-gradient(60deg, #D0C018, #FF8562);
+  height: 200px;
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+  text-align: center;
+}
+
+.mainLogo {
+  position: absolute; 
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  height: 36px;
+}
+
+.goBackButton {
+  display: flex;
+  font-family: "VK Sans Text";
+  font-size: 15px;
+  color: white;
+  width: 90px;
+  height: 48px;
+  margin-left: 20px;
+  padding-top: 35px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.chevronLeft {
+  padding-top: 2px;
+  width: 8.5px;
+  height: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .goBackText {
+    display: none;
+  }
+}
+
+.goBackText {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+
+.blockchainAbout {
+  display: inline-block;
+}
+
+.subtitle {
+  display: flex;
+  font-family: "SF Pro Display";
+  color: #ffff;
+  font-size: 26px;
+  text-align: left;
+  margin-left: 0;
+} 
+
+.sliderContainer {
+  display: flex;
+  border-radius: 4px;
+  width: 632px;
+  height: 4px;
+  gap: 5px
+}
+
+@media screen and (max-width: 700px) {
+  .sliderContainer {
+    display: flex;
+    border-radius: 4px;
+    width: 332px;
+    height: 4px;
+    gap: 5px
+  }
+
+  .slider {
+    background-color: #ffff;
+    border-radius: 4px;
+    width: 332px;
+    height: 4px;
+    margin: 5px auto;
+  }
+  
+  .unactiveSlider {
+    background-color: #ffffff6a;
+    border-radius: 4px;
+    width: 332px;
+    height: 4px;
+    margin: 5px auto;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .subtitle {
+    display: flex;
+    font-family: "SF Pro Display";
+    color: #ffff;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 0;
+  } 
+
+  .sliderContainer {
+    display: flex;
+    border-radius: 4px;
+    width: 300px;
+    height: 4px;
+    gap: 5px
+  }
+
+  .slider {
+    background-color: #ffff;
+    border-radius: 4px;
+    width: 132px;
+    height: 4px;
+    margin: 5px auto;
+  }
+  
+  .unactiveSlider {
+    background-color: #ffffff6a;
+    border-radius: 4px;
+    width: 132px;
+    height: 4px;
+    margin: 5px auto;
+  }
+}
+
+
+.slider {
+  background-color: #ffff;
+  border-radius: 4px;
+  width: 632px;
+  height: 4px;
+  margin: 5px auto;
+}
+
+.unactiveSlider {
+  background-color: #ffffff6a;
+  border-radius: 4px;
+  width: 632px;
+  height: 4px;
+  margin: 5px auto;
+}

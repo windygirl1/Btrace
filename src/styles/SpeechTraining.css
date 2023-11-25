@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "VK Sans Text";
+  src: url("../fonts/VKSansDisplay-Regular.ttf")
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SF-Pro-Display-Semibold.otf")
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("../fonts/SFUIText-Regular.ttf")
+}
+
+
+.bodySpeech {
+  background-color: #ffff;
+  width: 100%;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.speechContainer {
+  background-color: #F9F9F9;
+  justify-content: center;
+  max-width: 80%;
+  height: 100vh;
+  padding: 0 10px 0 15px;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 16px;
+}
+
+@media screen and (max-height: 700px) {
+  .speechContainer {
+    height: 120vh;
+  }
+}
+
+@media screen and (max-height: 505px) {
+  .speechContainer {
+    height: 140vh;
+  }
+}
+
+@media screen and (max-height: 430px) {
+  .speechContainer {
+    height: 150vh;
+  }
+
+  .speechImg {
+    display: flex;
+    margin: 30px auto;
+    width: 240px;
+    height: 190px;
+  }
+}
+
+.subtitle2 {
+  display: flex;
+  font-family: "SF Pro Display";
+  color: #50505A;
+  font-size: 26px;
+  text-align: left;
+}
+
+.speech {
+  display: flex;
+  font-family: "SF UI Text";
+  color: #50505A;
+  font-size: 15px;
+  text-align: left;
+}
+
+.speechImg {
+  display: flex;
+  margin: 30px auto;
+  width: 270px;
+  height: 210px;
+}
+
+
+
+

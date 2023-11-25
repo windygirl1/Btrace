@@ -1,0 +1,222 @@
+@font-face {
+  font-family: "VK Sans Text";
+  src: url("../fonts/VKSansDisplay-Regular.ttf")
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SF-Pro-Display-Semibold.otf")
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("../fonts/SFUIText-Regular.ttf")
+}
+
+.headerContainer {
+  background: linear-gradient(60deg, #D0C018, #FF8562);
+  height: 250px;
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+  text-align: center;
+}
+
+.mainLogo {
+  position: absolute; 
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  height: 36px;
+}
+
+.goBackButton {
+  display: flex;
+  font-family: "VK Sans Text";
+  font-size: 15px;
+  color: white;
+  width: 90px;
+  height: 48px;
+  margin-left: 20px;
+  padding-top: 35px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.chevronLeft {
+  padding-top: 2px;
+  width: 8.5px;
+  height: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .goBackText {
+    display: none;
+  }
+}
+
+.goBackText {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+
+.subNinputContainer {
+  display: inline-block;
+}
+
+.subtitle {
+  display: flex;
+  font-family: "SF Pro Display";
+  color: #ffff;
+  font-size: 26px;
+  text-align: left;
+  margin-left: 0;
+} 
+
+.inputContainer {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .inputContainer {
+    display: flex;
+    gap: 8px;
+    width: 450px;
+    margin-bottom: 10px;
+  }
+
+  .inputAddress {
+    background-color: #ffff;
+    border-radius: 10px;
+    border: none;
+    height: 44px;
+    margin: 5px auto;
+    padding-left: 10px;
+    font-family: "SF UI Text";
+    text-overflow: ellipsis;
+  }
+
+  .copy {
+    border: none;
+    width: 64px !important; 
+    height: 64px;
+    margin-top: 6px;
+    border-radius: 10px;
+    background-color: #50505A;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .inputContainer {
+    display: flex;
+    gap: 8px;
+    width: 350px;
+    margin-bottom: 10px;
+  }
+
+  .inputAddress {
+    background-color: #ffff;
+    border-radius: 10px;
+    border: none;
+    height: 44px;
+    margin: 5px auto;
+    padding-left: 10px;
+    font-family: "SF UI Text";
+    text-overflow: ellipsis;
+  }
+
+  .copy {
+    border: none;
+    width: 74px !important; 
+    height: 74px;
+    margin-top: 6px;
+    border-radius: 10px;
+    background-color: #50505A;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .inputContainer {
+    display: flex;
+    gap: 8px;
+    width: 340px;
+    margin-bottom: 10px;
+  }
+
+  .inputAddress {
+    background-color: #ffff;
+    border-radius: 10px;
+    border: none;
+    height: 44px;
+    margin: 5px auto;
+    padding-left: 10px;
+    font-family: "SF UI Text";
+    text-overflow: ellipsis;
+  }
+
+  .copy {
+    border: none;
+    width: 94px !important; 
+    height: 94px;
+    margin-top: 6px;
+    border-radius: 10px;
+    background-color: #50505A;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .inputContainer {
+    display: flex;
+    gap: 8px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+
+  .inputAddress {
+    background-color: #ffff;
+    border-radius: 10px;
+    border: none;
+    height: 44px;
+    margin: 5px auto;
+    padding-left: 10px;
+    font-family: "SF UI Text";
+    text-overflow: ellipsis;
+  }
+
+  .copy {
+    border: none;
+    width: 94px !important; 
+    height: 94px;
+    margin-top: 6px;
+    border-radius: 10px;
+    background-color: #50505A;
+  }
+}
+
+.inputAddress {
+  background-color: #ffff;
+  border-radius: 10px;
+  border: none;
+  width: 578px;
+  height: 44px;
+  margin: 5px auto;
+  padding-left: 10px;
+  font-family: "SF UI Text";
+  text-overflow: ellipsis;
+}
+
+.copy {
+  border: none;
+  width: 44px;
+  height: 44px;
+  margin-top: 6px;
+  border-radius: 10px;
+  background-color: #50505A;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+}
